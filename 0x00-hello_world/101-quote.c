@@ -1,22 +1,15 @@
-#include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - prints all numbers of base 16 in lowercase
+ * main - print quote
  *
- * Return: 0 - Sucess
+ * Description: prints Dora's quote
+ *
+ * Return: Always 1 (Sucess)
  */
+
 int main(void)
 {
-	int i;
-
-	for (i = 48; i < 58; i++)
-	{
-		putchar(i);
-	}
-	for (i = 97; i < 103; i++)
-	{
-		putchar(i);
-	}
-	putchar('\n');
-	return (0);
+	write(2, "and that piece of art is useful\"- Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
