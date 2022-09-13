@@ -2,17 +2,16 @@
 
 /**
  *
- * print_alphabet_x10 - print alphabet 10 times
+ * print_alphabet_x10 - print alphabet
  *
  * Return: void
  */
 
 void print_alphabet_x10(void)
 {
-	int round = 1;
 	char ch;
 
-	for (round = 1; round <= 'z'; ch++)
+	for (ch = 'a'; ch  <= 'z'; ch++)
 	{
 		_putchar(ch);
 	}
