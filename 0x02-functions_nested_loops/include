@@ -1,7 +1,4 @@
-#include "main.h"
-
-/**
- * print_sign - Dtermines if the input variable is greater,
+ign - Dtermines if the input variable is greater,
  * equal or less than zero
  *
  * @n: The input variable as an interger.
@@ -29,3 +26,4 @@ int print_sign(int n)
 	}
 	_putchar('\n');
 }
+%s/\s\+$//e
