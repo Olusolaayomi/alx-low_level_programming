@@ -1,4 +1,4 @@
-ifndef VARIADIC_FUNCTIONS_H
+#ifndef VARIADIC_FUNCTIONS_H
 #define VARIADIC_FUNCTIONS_H
 #define null (void *)0
 #define TRUE 1
